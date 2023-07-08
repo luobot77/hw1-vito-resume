@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&display=swap');
+
+:root {
+  font-size: 16px;
+  --main-width: 81rem;
+  --main-line-height: 1.5;
+}
+
+body {
+  font-family: Castoro;
+}
+
+.container {
+  width: var(--main-width);
+  margin-inline: auto;
+}
+
+/* section: cover */
+
+.cover {
+  padding-top: 10rem;
+}
+
+.cover__heading {
+  font-size: 8rem;
+  line-height: var(--main-line-height);
+  letter-spacing: 0.12em;
+}
+
+.cover__heading--sub {
+  text-align: right;
+}
+
+.cover__image {
+  display: block;
+  margin-inline: auto;
+}
+
+/* section: about */
+
+.about {
+  background-color: #efefef;
+  padding-block: 3rem;
+}
+
+.about__text {
+  margin-left: auto;
+  width: 39.75rem;
+  font-size: 2rem;
+  line-height: var(--main-line-height);
+}
+
+/* section: details */
+
+.details {
+  padding-block: 5rem 10rem;
+}
+
+.details__content {
+  width: 39.75rem;
+}
+
+.details__section ~ .details__section {
+  margin-top: 2.5rem;
+}
+
+.details__title {
+  font-size: 2.5rem;
+  line-height: var(--main-line-height);
+  color: #ae0000;
+  border-bottom: solid 3px #ae0000;
+}
+
+.details__title + .details__info {
+  margin-top: 1rem;
+}
+
+.details__info {
+  font-size: 1.5rem;
+  line-height: var(--main-line-height);
+}
+
+.details__info-item--small ~ .details__info-item--small {
+  margin-top: 0.5rem;
+}
+
+.details__info-item--medium ~ .details__info-item--medium {
+  margin-top: 0.75rem;
+}
+
+.details__info-item--large ~ .details__info-item--large {
+  margin-top: 1rem;
+}
+
+.details__info-year {
+  display: block;
+  color: #949494;
+  font-size: 1.25rem;
+  line-height: var(--main-line-height);
+  font-style: italic;
+}
+
+/* section: footer */
+
+.footer {
+  background-color: #000000;
+  padding-block: 4rem;
+}
+
+.footer__container {
+  text-align: center;
+}
+
+.footer__links {
+  display: inline-block;
+}
+
+.footer__links-item {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.footer__links-item img {
+  display: block;
+}
+
+.footer__links-item ~ .footer__links-item {
+  margin-left: 2.5rem;
+}
