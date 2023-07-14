@@ -92,6 +92,11 @@ body {
   margin-top: 1rem;
 }
 
+.details__info-item a {
+  color: unset;
+  text-decoration: none;
+}
+
 .details__info-year {
   display: block;
   color: #949494;
